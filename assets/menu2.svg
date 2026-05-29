@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#efe6de" />
+  <g>
+    <rect x="20" y="20" width="760" height="560" rx="12" fill="#fff"/>
+    <rect x="40" y="40" width="700" height="300" rx="8" fill="#e9d9c9"/>
+    <text x="60" y="380" font-size="28" font-family="Arial" fill="#3b2f2f">Cappuccino — creamy & rich</text>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Login — Sunny Roast Cafe</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div style="display:flex;align-items:center;gap:12px">
+        <img src="assets/logo.svg" alt="Sunny Roast Cafe logo" style="height:40px" />
+        <h1 class="logo" style="margin:0">Sunny Roast Cafe</h1>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="signup.html">Sign Up</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="auth">
+      <h2>Login to your account</h2>
+      <form id="loginForm" class="auth-form">
+        <label>Email<input type="email" name="email" required></label>
+        <label>Password<input type="password" name="password" required></label>
+        <button type="submit" class="btn">Login</button>
+      </form>
+      <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+    </section>
+  </main>
+
+  <script src="js/auth.js"></script>
+</body>
+</html>

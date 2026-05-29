@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dashboard — Sunny Roast Cafe</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div style="display:flex;align-items:center;gap:12px">
+        <img src="assets/logo.svg" alt="Sunny Roast Cafe logo" style="height:40px" />
+        <h1 class="logo" style="margin:0">Sunny Roast Cafe</h1>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="#" id="logoutLink">Logout</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="dashboard">
+      <h2>Welcome, <span id="userName">Guest</span></h2>
+      <p>This is a demo dashboard. From here you can view reservations and update your profile (demo).</p>
+      <div id="dashboardContent"></div>
+    </section>
+  </main>
+
+  <script src="js/auth.js"></script>
+</body>
+</html>

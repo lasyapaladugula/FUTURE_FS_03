@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="#fff"/>
+  <g transform="translate(80,60)">
+    <rect width="480" height="280" rx="16" fill="#f7f2ef" stroke="#eee"/>
+    <text x="40" y="120" font-size="36" font-family="Arial" fill="#333">Cozy coffee, fresh pastries</text>
+  </g>
+</svg>

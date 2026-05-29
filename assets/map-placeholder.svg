@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#eef2f6"/>
+  <text x="40" y="200" font-size="24" fill="#6b7280">Map placeholder — replace with Google Maps iframe</text>
+</svg>

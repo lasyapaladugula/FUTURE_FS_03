@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "id": 1780058869351,
+      "name": "E2E Test",
+      "email": "e2etest1780058868589@example.com",
+      "password": "$2a$10$nIewx6nmNytYTtL1aI9q9.zSAIxvtD/c56.B/x4V7tVL327hIHfWy"
+    }
+  ],
+  "messages": []
+}
