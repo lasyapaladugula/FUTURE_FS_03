@@ -14,11 +14,15 @@
 <body>
   <header class="site-header">
     <div class="container">
-      <div style="display:flex;align-items:center;gap:12px">
+      <div class="brand">
         <img src="assets/logo.svg" alt="Sunny Roast Cafe logo" style="height:40px" />
-        <h1 class="logo" style="margin:0">Sunny Roast Cafe</h1>
+        <h1 class="logo">Sunny Roast Cafe</h1>
       </div>
-      <nav class="nav">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="siteNav" type="button">
+        <span class="sr-only">Toggle navigation</span>
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 7H20M4 12H20M4 17H20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <nav id="siteNav" class="nav">
         <a href="#about">About</a>
         <a href="#menu">Menu</a>
         <a href="#contact">Contact</a>
@@ -67,54 +71,117 @@
 
     <section id="menu" class="container menu">
       <h3>Our Menu</h3>
-      <p class="muted">A selection of our popular drinks and baked goods — prices in Indian Rupees (INR).</p>
-      <div class="cards">
-        <div class="card">
-          <img src="assets/photos/coffee.jpg" alt="Espresso" />
-          <div class="card-body">
-            <h4>Espresso</h4>
-            <p class="price">₹120</p>
-            <p>Single-origin, intense shot — perfect as a quick pick-me-up.</p>
+      <p class="muted">A selection of our popular drinks, bakery favorites, and brunch specials — prices in Indian Rupees (INR).</p>
+
+      <div class="menu-category">
+        <div class="category-banner">
+          <img src="assets/photos/coffee.jpg" alt="Coffee and espresso drinks" />
+          <div class="category-copy">
+            <h4>Drinks</h4>
+            <p>Warm espresso, specialty tea, and refreshing cold brews made to order.</p>
           </div>
         </div>
-        <div class="card">
-          <img src="assets/photos/coffee.jpg" alt="Cappuccino" />
-          <div class="card-body">
-            <h4>Cappuccino</h4>
-            <p class="price">₹180</p>
-            <p>Creamy microfoam with a balanced espresso base.</p>
+        <div class="cards">
+          <div class="card card-plain">
+            <div class="card-body">
+              <h4>Espresso</h4>
+              <p class="price">₹120</p>
+              <p>Single-origin, intense shot — perfect for a quick energy boost.</p>
+            </div>
+          </div>
+          <div class="card card-plain">
+            <div class="card-body">
+              <h4>Cappuccino</h4>
+              <p class="price">₹180</p>
+              <p>Velvety steamed milk over bold espresso with a light dusting of cocoa.</p>
+            </div>
+          </div>
+          <div class="card card-plain">
+            <div class="card-body">
+              <h4>Flat White</h4>
+              <p class="price">₹170</p>
+              <p>Rich ristretto espresso with a silky microfoam finish.</p>
+            </div>
+          </div>
+          <div class="card card-plain">
+            <div class="card-body">
+              <h4>Masala Chai</h4>
+              <p class="price">₹130</p>
+              <p>Warm spiced tea brewed with milk, cardamom, cinnamon, and ginger.</p>
+            </div>
+          </div>
+          <div class="card card-plain">
+            <div class="card-body">
+              <h4>Iced Cold Brew</h4>
+              <p class="price">₹160</p>
+              <p>Smooth cold-brewed coffee over ice with a hint of vanilla.</p>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <img src="assets/photos/pastry.jpg" alt="Blueberry Muffin" />
-          <div class="card-body">
-            <h4>Blueberry Muffin</h4>
-            <p class="price">₹80</p>
-            <p>Freshly baked with seasonal fruit.</p>
+      </div>
+
+      <div class="menu-category">
+        <div class="category-banner">
+          <img src="assets/photos/pastry.jpg" alt="Fresh bakery pastries" />
+          <div class="category-copy">
+            <h4>Bakery</h4>
+            <p>Freshly baked pastries and sweet treats made every morning in-house.</p>
           </div>
         </div>
-        <div class="card">
-          <img src="assets/photos/coffee.jpg" alt="Latte" />
-          <div class="card-body">
-            <h4>Latte</h4>
-            <p class="price">₹160</p>
-            <p>Smooth steamed milk over rich espresso.</p>
+        <div class="cards">
+          <div class="card card-plain">
+            <div class="card-body">
+              <h4>Blueberry Muffin</h4>
+              <p class="price">₹80</p>
+              <p>Freshly baked with juicy berries and a golden crumb topping.</p>
+            </div>
+          </div>
+          <div class="card card-plain">
+            <div class="card-body">
+              <h4>Almond Croissant</h4>
+              <p class="price">₹140</p>
+              <p>Buttery pastry filled with almond frangipane and toasted almonds.</p>
+            </div>
+          </div>
+          <div class="card card-plain">
+            <div class="card-body">
+              <h4>Chocolate Chip Cookie</h4>
+              <p class="price">₹70</p>
+              <p>Chewy cookie with warm chocolate pieces and sea salt.</p>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <img src="assets/photos/hero.jpg" alt="Sandwich" />
-          <div class="card-body">
-            <h4>Grilled Sandwich</h4>
-            <p class="price">₹220</p>
-            <p>Toasted sourdough with seasonal fillings and house chutney.</p>
+      </div>
+
+      <div class="menu-category">
+        <div class="category-banner">
+          <img src="assets/photos/hero.jpg" alt="Brunch favorites" />
+          <div class="category-copy">
+            <h4>Brunch</h4>
+            <p>Hearty brunch classics and chef specials to start your day right.</p>
           </div>
         </div>
-        <div class="card">
-          <img src="assets/photos/pastry.jpg" alt="Chocolate Cake" />
-          <div class="card-body">
-            <h4>Chocolate Cake</h4>
-            <p class="price">₹150</p>
-            <p>Decadent slice served with a dollop of cream.</p>
+        <div class="cards">
+          <div class="card featured">
+            <div class="card-body">
+              <h4>Chef’s Special: French Toast</h4>
+              <p class="price">₹260</p>
+              <p>Thick brioche soaked in cinnamon milk, served with berry compote, honey, and whipped cream.</p>
+            </div>
+          </div>
+          <div class="card card-plain">
+            <div class="card-body">
+              <h4>Avocado Toast</h4>
+              <p class="price">₹210</p>
+              <p>Creamy avocado, lemon, and chili flakes on toasted sourdough.</p>
+            </div>
+          </div>
+          <div class="card card-plain">
+            <div class="card-body">
+              <h4>Breakfast Sandwich</h4>
+              <p class="price">₹230</p>
+              <p>Egg, cheese, and house chutney on toasted ciabatta.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -172,11 +239,12 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>© 2026 Sunny Roast Cafe — Official Project</p>
+      <p>© <span id="year"></span> Sunny Roast Cafe — Official Project</p>
       <p><a href="https://github.com/<your-username>/FUTURE_FS_03">Repository</a></p>
     </div>
   </footer>
 
   <script src="js/script.js"></script>
+  <script src="js/ui.js"></script>
 </body>
 </html>

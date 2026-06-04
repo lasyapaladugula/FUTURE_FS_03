@@ -10,11 +10,15 @@
 <body>
   <header class="site-header">
     <div class="container">
-      <div style="display:flex;align-items:center;gap:12px">
+      <div class="brand">
         <img src="assets/logo.svg" alt="Sunny Roast Cafe logo" style="height:40px" />
-        <h1 class="logo" style="margin:0">Sunny Roast Cafe</h1>
+        <h1 class="logo">Sunny Roast Cafe</h1>
       </div>
-      <nav class="nav">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="siteNav" type="button">
+        <span class="sr-only">Toggle navigation</span>
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 7H20M4 12H20M4 17H20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <nav id="siteNav" class="nav">
         <a href="index.html">Home</a>
         <a href="#" id="logoutLink">Logout</a>
       </nav>
@@ -24,11 +28,12 @@
   <main class="container">
     <section class="dashboard">
       <h2>Welcome, <span id="userName">Guest</span></h2>
-      <p>This is a demo dashboard. From here you can view reservations and update your profile (demo).</p>
+      <p class="muted">This is a demo dashboard. From here you can review your profile and preview reservation activity.</p>
       <div id="dashboardContent"></div>
     </section>
   </main>
 
   <script src="js/auth.js"></script>
+  <script src="js/ui.js"></script>
 </body>
 </html>

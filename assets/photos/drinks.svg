@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff9f2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fff1dc;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#grad1)"/>
+  <!-- Cup 1 -->
+  <rect x="40" y="120" width="60" height="90" rx="8" fill="#d16013" opacity="0.9"/>
+  <ellipse cx="70" cy="120" rx="30" ry="12" fill="#d97706"/>
+  <path d="M 110 140 Q 130 135 130 170 Q 130 190 110 195" stroke="#d16013" stroke-width="4" fill="none" opacity="0.7"/>
+  <!-- Cup 2 -->
+  <rect x="160" y="100" width="55" height="100" rx="6" fill="#8b6f47" opacity="0.85"/>
+  <ellipse cx="187.5" cy="100" rx="27.5" ry="10" fill="#a0826d"/>
+  <path d="M 220 115 Q 245 108 245 160 Q 245 185 220 195" stroke="#8b6f47" stroke-width="4" fill="none" opacity="0.7"/>
+  <!-- Cup 3 -->
+  <rect x="280" y="110" width="65" height="95" rx="8" fill="#c4623d" opacity="0.88"/>
+  <ellipse cx="312.5" cy="110" rx="32.5" ry="12" fill="#d97706"/>
+  <path d="M 355 130 Q 380 122 380 165 Q 380 190 355 200" stroke="#c4623d" stroke-width="5" fill="none" opacity="0.7"/>
+  <!-- Decorative elements -->
+  <circle cx="70" cy="140" r="3" fill="#fff9f2" opacity="0.6"/>
+  <circle cx="190" cy="130" r="2.5" fill="#fff9f2" opacity="0.5"/>
+  <circle cx="315" cy="145" r="3.5" fill="#fff9f2" opacity="0.6"/>
+</svg>

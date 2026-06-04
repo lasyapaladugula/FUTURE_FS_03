@@ -1,0 +1,41 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="toastGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4a574;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a0826d;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="eggGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fdf5e6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f7d899;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="#fff9f2"/>
+  
+  <!-- French Toast -->
+  <rect x="30" y="90" width="85" height="120" rx="4" fill="url(#toastGrad)"/>
+  <rect x="35" y="100" width="75" height="30" fill="#c0956f" opacity="0.7"/>
+  <rect x="35" y="145" width="75" height="8" fill="#f0f0f0"/>
+  <ellipse cx="72.5" cy="155" rx="40" ry="12" fill="#d4a574" opacity="0.6"/>
+  <circle cx="50" cy="115" r="3" fill="#fff9f2" opacity="0.5"/>
+  <circle cx="75" cy="125" r="2.5" fill="#fff9f2" opacity="0.4"/>
+  
+  <!-- Avocado Toast -->
+  <rect x="160" y="100" width="80" height="110" rx="4" fill="url(#toastGrad)"/>
+  <ellipse cx="200" cy="140" rx="35" ry="40" fill="#6b8e23" opacity="0.85"/>
+  <ellipse cx="200" cy="140" rx="28" ry="32" fill="#8bc34a" opacity="0.7"/>
+  <circle cx="200" cy="140" r="8" fill="#fff9f2" opacity="0.4"/>
+  <line x1="175" y1="165" x2="225" y2="165" stroke="#d97706" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Breakfast Sandwich -->
+  <rect x="285" y="105" width="80" height="100" rx="3" fill="url(#toastGrad)"/>
+  <rect x="290" y="110" width="70" height="15" fill="#fdf5e6" opacity="0.9"/>
+  <ellipse cx="325" cy="125" rx="32" ry="6" fill="url(#eggGrad)"/>
+  <rect x="290" y="138" width="70" height="12" fill="#d4a574" opacity="0.8"/>
+  <circle cx="305" cy="120" r="2.5" fill="#f7c948" opacity="0.7"/>
+  <circle cx="340" cy="122" r="2" fill="#f7c948" opacity="0.6"/>
+  
+  <!-- Plate rim detail -->
+  <ellipse cx="72.5" cy="210" rx="45" ry="8" fill="none" stroke="#d0ccc8" stroke-width="2" opacity="0.5"/>
+  <ellipse cx="200" cy="210" rx="42" ry="7" fill="none" stroke="#d0ccc8" stroke-width="2" opacity="0.5"/>
+  <ellipse cx="325" cy="205" rx="42" ry="7" fill="none" stroke="#d0ccc8" stroke-width="2" opacity="0.5"/>
+</svg>

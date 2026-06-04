@@ -1,0 +1,40 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brunchBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff9f2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fff5e6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="toastGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4a574;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b6f47;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#brunchBg)"/>
+  
+  <!-- Plate -->
+  <ellipse cx="200" cy="200" rx="110" ry="40" fill="#fff8dc" stroke="#daa520" stroke-width="2"/>
+  <ellipse cx="200" cy="197" rx="105" ry="35" fill="#fffacd" opacity="0.5"/>
+  
+  <!-- French toast stack -->
+  <rect x="150" y="120" width="100" height="25" fill="url(#toastGrad)" stroke="#6f4e37" stroke-width="2" rx="4"/>
+  <rect x="155" y="100" width="90" height="25" fill="#d4a574" stroke="#8b6f47" stroke-width="2" rx="4"/>
+  
+  <!-- Whipped cream -->
+  <path d="M 160 95 Q 165 80 170 95 Q 175 82 180 95 Q 185 80 190 95 Q 195 82 200 95 Q 205 80 210 95 Q 215 82 220 95 Q 225 80 230 95" fill="#fff5e6" opacity="0.9"/>
+  <ellipse cx="195" cy="100" rx="35" ry="8" fill="#fff8dc" opacity="0.7"/>
+  
+  <!-- Berries on top -->
+  <circle cx="170" cy="92" r="5" fill="#ff6b9d"/>
+  <circle cx="190" cy="88" r="5" fill="#ff6b9d"/>
+  <circle cx="220" cy="92" r="5" fill="#ff6b9d"/>
+  <circle cx="200" cy="85" r="4" fill="#4169e1"/>
+  <circle cx="210" cy="90" r="4" fill="#4169e1"/>
+  
+  <!-- Honey drizzle -->
+  <path d="M 145 110 Q 150 115 155 110" stroke="#f4a460" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 240 115 Q 245 120 250 115" stroke="#f4a460" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.7"/>
+  
+  <!-- Decorative text -->
+  <text x="200" y="260" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#d16013">French Toast</text>
+  <text x="200" y="285" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#7b5a3c">₹260</text>
+</svg>
